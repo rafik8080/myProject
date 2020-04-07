@@ -1,7 +1,7 @@
 pipeline {
   agent { label 'master' }
   tools {
-    maven 'M3'
+    maven 'maven-3.6.3'
   }
   stages {
     stage('checkout') {
